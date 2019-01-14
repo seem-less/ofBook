@@ -171,8 +171,8 @@ the function interpolateByPct() does the actual interpolation:
 
 ```cpp
 void rectangle::interpolateByPct(float myPct){
-	pos.x = (1-pct) * posa.x + (pct) * posb.x;
-	pos.y = (1-pct) * posa.y + (pct) * posb.y;
+	pos.x = (1-myPct) * posa.x + (myPct) * posb.x;
+	pos.y = (1-myPct) * posa.y + (myPct) * posb.y;
 }
 ```
 
